@@ -45,6 +45,10 @@ function hangup() {
     return generate_verb('Hangup');
 }
 
+function number($address) {
+    return dial(generate_verb('Number', $address));
+}
+
 function play($url) {
     return generate_verb('Play', $url);
 }
