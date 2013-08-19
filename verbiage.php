@@ -9,6 +9,7 @@ if(VERB_TYPE == 'SAY') {
     defined('MESSAGE_RECORD_ERROR') or define('MESSAGE_RECORD_ERROR', 'We could not save your recording. Please try again later.');
     defined('MESSAGE_RECORD_PROMPT') or define('MESSAGE_RECORD_PROMPT', 'Please leave a message after the tone.');
     defined('MESSAGE_RECORD_THANKS') or define('MESSAGE_RECORD_THANKS', 'Thank you for leaving a message!');
+    defined('MESSAGE_CONFERENCE_INFO') or define('MESSAGE_CONFERENCE_INFO', 'General conference info here!');
 } elseif(VERB_TYPE == 'PLAY') {
     defined('MESSAGE_ENTER_CALL') or define('MESSAGE_ENTER_CALL', 'http://example.com/audio.mp3');
     defined('MESSAGE_CONFERENCE_AUTH') or define('MESSAGE_CONFERENCE_AUTH', '');
@@ -16,4 +17,5 @@ if(VERB_TYPE == 'SAY') {
     defined('MESSAGE_RECORD_ERROR') or define('MESSAGE_RECORD_ERROR', '');
     defined('MESSAGE_RECORD_PROMPT') or define('MESSAGE_RECORD_PROMPT', '');
     defined('MESSAGE_RECORD_THANKS') or define('MESSAGE_RECORD_THANKS', '');
+    defined('MESSAGE_CONFERENCE_INFO') or define('MESSAGE_CONFERENCE_INFO', '');
 }
